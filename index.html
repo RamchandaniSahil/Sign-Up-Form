@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="image">
+            <img id="img" src="./images/halie-west-25xggax4bSA-unsplash.jpg" alt="Image">
+            <div class="logo">
+                <img src="./images/odin-lined.png" alt="ODIN" class="logo_image">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+        <div class="form">
+            <div class="container margin">
+                <div class="content">
+                    <h2 class="padding">This is not a real online service! You know you need something like this in your life to help
+                        you realize your deepest dreams.</h2>
+                    <h2>Sign up now to get started.</h2>
+                </div>
+                <h2 class="content">You know you want to.</h2>
+            </div>
+            <div class="center">
+                <h2 class="margin">Let's do this!</h2>
+                <form action="#" method="post" class="margin" id="form">
+                    <div class="flex">
+                        <div class="left">
+                            <div class="input">
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" name="first_name" id="first_name" required>
+                            </div>
+
+                            <div class="input">
+                                <label for="user_email">EMAIL</label>
+                                <input type="email" name="user_email" id="user_email" required>
+                            </div>
+
+                            <div class="input">
+                                <label for="user_password">PASSWORD</label>
+                                <input type="password" name="user_password" id="user_password" class="password" title="Enter a strong Password" required>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="input">
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" name="last_name" id="last_name" required>
+                            </div>
+
+                            <div class="input">
+                                <label for="phone_number">PHONE NUMBER</label>
+                                <input type="tel" name="phone_number" id="phone_number" required>
+                            </div>
+
+                            <div class="input">
+                                <label for="confirm_password">CONFIRM PASSWORD</label>
+                                <input type="password" name="confirm_password" id="confirm_password" class="password" title="Enter same password that you written in PASSWORD" required>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="submit margin">
+                <button class="create" type="submit" form="form">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
